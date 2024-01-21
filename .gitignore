@@ -1,0 +1,32 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+node_modules 
+dist
+.cache
+
+# . ~ Are Ignore
+
+# OS Generated Files
+Thumbs.db
+
+# ! means track these
+!.editorConfig
+
+# ------------------------------------
+# IGNORING PROJECT FILES
+# ------------------------------------
+
+# Pinegrow
+_pginfo
+_pgbackup
+pingrow.json
+
+# PhotoLine
+.pldbak
+
+# cache folder(s)/directories
+/cache
+
+# Blender
+*.blend1
